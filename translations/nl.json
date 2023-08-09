@@ -1,0 +1,54 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "emoncms": "emoncms"
+                },
+                "description": "Selecteer uw apparaat. U wordt gevraagd eventuele benodigde geheimen toe te voegen op de volgende pagina. U kunt meer dan één apparaat toevoegen, maar dit moet één voor één gebeuren.",
+                "title": "Apparaten"
+            },
+            "secrets_emon": {
+                "data": {
+                    "emoncms_url": "emoncms_url",
+                    "emoncms_api": "emoncms_api",
+                    "add_another": "Nog een apparaat toevoegen?"
+                },
+                "title": "Voeg uw geheim toe"
+            },
+            "secrets_victron": {
+                "data": {
+                    "victron_host": "victron_host",
+                    "add_another": "Nog een apparaat toevoegen?"
+                },
+                "title": "Voeg uw geheim toe"
+            },
+            "secrets_sunnyboy_battery": {
+                "data": {
+                    "sbs_host": "sbs_host",
+                    "add_another": "Nog een apparaat toevoegen?"
+                },
+                "title": "Voeg uw geheim toe"
+            },
+            "secrets_sunnyboy_pv": {
+                "data": {
+                    "sb_host": "sb_host",
+                    "add_another": "Nog een apparaat toevoegen?"
+                },
+                "title": "Voeg uw geheim toe"
+            },
+            "sb_auto_required": {
+                "title": "Inloggen",
+                "description": "Kent u uw inloggegevens?"
+            },
+            "shelly_selector_heater": {
+                "title": "Shelly-selector",
+                "description": "Selecteer een entiteit die overeenkomt met de shelly op uw dompelverwarmer. Het zou er iets uit moeten zien als 'sensor.shelly_em_abcd123_ip'"
+            },
+            "shelly_selector_meter": {
+                "title": "Shelly-selector",
+                "description": "Selecteer een entiteit die overeenkomt met de shelly op uw nutsvoorzieningsmeter. Het zou er iets uit moeten zien als 'sensor.shelly_em_abcd123_ip'"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "domain": "cofybox_packages",
+  "name": "CofyBox Packages",
+  "codeowners": ["@sam-ccoop"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/cofybox_packages",
+  "requirements": [],
+  "version": "0.1"
+}

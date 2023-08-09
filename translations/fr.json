@@ -1,0 +1,54 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "emoncms": "emoncms"
+                },
+                "description": "Veuillez sélectionner votre appareil. Vous serez invité à ajouter tous les secrets requis sur la page suivante. Vous pouvez ajouter plus d'un appareil, mais cela doit être fait un à la fois.",
+                "title": "Appareils"
+            },
+            "secrets_emon": {
+                "data": {
+                    "emoncms_url": "emoncms_url",
+                    "emoncms_api": "emoncms_api",
+                    "add_another": "Ajouter un autre appareil?"
+                },
+                "title": "Ajoutez votre secret"
+            },
+            "secrets_victron": {
+                "data": {
+                    "victron_host": "victron_host",
+                    "add_another": "Ajouter un autre appareil?"
+                },
+                "title": "Ajoutez votre secret"
+            },
+            "secrets_sunnyboy_battery": {
+                "data": {
+                    "sbs_host": "sbs_host",
+                    "add_another": "Ajouter un autre appareil?"
+                },
+                "title": "Ajoutez votre secret"
+            },
+            "secrets_sunnyboy_pv": {
+                "data": {
+                    "sb_host": "sb_host",
+                    "add_another": "Ajouter un autre appareil?"
+                },
+                "title": "Ajoutez votre secret"
+            },
+            "sb_auto_required": {
+                "title": "Connexion",
+                "description": "Connaissez-vous vos informations de connexion?"
+            },
+            "shelly_selector_heater": {
+                "title": "Sélecteur Shelly",
+                "description": "Sélectionnez une entité qui correspond au shelly de votre chauffe-eau à immersion. Cela devrait ressembler à quelque chose comme 'sensor.shelly_em_abcd123_ip'"
+            },
+            "shelly_selector_meter": {
+                "title": "Sélecteur Shelly",
+                "description": "Sélectionnez une entité qui correspond au shelly de votre compteur d'utilité. Cela devrait ressembler à quelque chose comme 'sensor.shelly_em_abcd123_ip'"
+            }
+        }
+    }
+}

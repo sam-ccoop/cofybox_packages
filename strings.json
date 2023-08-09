@@ -1,0 +1,54 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "emoncms": "emoncms"
+                },
+                "description": "Please select your device. You will be prompted to add any required secrets on the next page. You can add more than one device, but this must be done one at time. NOTE: If you have more than one Shelly installed, please do not set these up through here. Contact your installer so we can add them manually.",
+                "title": "Devices"
+            },
+            "secrets_emon": {
+                "data": {
+                    "emoncms_url": "emoncms_url",
+                    "emoncms_api": "emoncms_api",
+                    "add_another": "Add another device?"
+                },
+                "title": "Add your secret"
+            },
+            "secrets_victron": {
+                "data": {
+                    "victron_host": "victron_host",
+                    "add_another": "Add another device?"
+                },
+                "title": "Add your secret"
+            },
+            "secrets_sunnyboy_battery": {
+                "data": {
+                    "sbs_host": "sbs_host",
+                    "add_another": "Add another device?"
+                },
+                "title": "Add your secret"
+            },
+            "secrets_sunnyboy_pv": {
+                "data": {
+                    "sb_host": "sb_host",
+                    "add_another": "Add another device?"
+                },
+                "title": "Add your secret"
+            },
+            "sb_auto_required": {
+                "title": "Login",
+                "description": "Do you know your login information?"
+            },
+            "shelly_selector_heater": {
+                "title": "Shelly selector",
+                "description": "Select an entity that corresponds to the shelly on your immersion heater. It should look something like 'sensor.shelly_em_abcd123_ip'"
+            },
+            "shelly_selector_meter": {
+                "title": "Shelly selector",
+                "description": "Select an entity that corresponds to the shelly on your utility meter. It should look something like 'sensor.shelly_em_abcd123_ip'"
+            }
+        }
+    }
+}

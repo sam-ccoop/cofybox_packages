@@ -1,0 +1,1 @@
+"""The cofybox_packages integration."""

@@ -1,0 +1,54 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "emoncms": "emoncms"
+                },
+                "description": "Por favor, seleccione su dispositivo. Se le pedirá que agregue cualquier secreto requerido en la siguiente página. Puede agregar más de un dispositivo, pero esto debe hacerse uno a la vez.",
+                "title": "Dispositivos"
+            },
+            "secrets_emon": {
+                "data": {
+                    "emoncms_url": "emoncms_url",
+                    "emoncms_api": "emoncms_api",
+                    "add_another": "¿Agregar otro dispositivo?"
+                },
+                "title": "Añade tu secreto"
+            },
+            "secrets_victron": {
+                "data": {
+                    "victron_host": "victron_host",
+                    "add_another": "¿Agregar otro dispositivo?"
+                },
+                "title": "Añade tu secreto"
+            },
+            "secrets_sunnyboy_battery": {
+                "data": {
+                    "sbs_host": "sbs_host",
+                    "add_another": "¿Agregar otro dispositivo?"
+                },
+                "title": "Añade tu secreto"
+            },
+            "secrets_sunnyboy_pv": {
+                "data": {
+                    "sb_host": "sb_host",
+                    "add_another": "¿Agregar otro dispositivo?"
+                },
+                "title": "Añade tu secreto"
+            },
+            "sb_auto_required": {
+                "title": "Inicio de sesión",
+                "description": "¿Conoce su información de inicio de sesión?"
+            },
+            "shelly_selector_heater": {
+                "title": "Selector de Shelly",
+                "description": "Seleccione una entidad que corresponda al shelly en su calentador de inmersión. Debería parecerse a 'sensor.shelly_em_abcd123_ip'"
+            },
+            "shelly_selector_meter": {
+                "title": "Selector de Shelly",
+                "description": "Seleccione una entidad que corresponda al shelly en su contador de servicios públicos. Debería parecerse a 'sensor.shelly_em_abcd123_ip'"
+            }
+        }
+    }
+}

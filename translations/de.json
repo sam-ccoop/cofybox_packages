@@ -1,0 +1,54 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "emoncms": "emoncms"
+                },
+                "description": "Bitte wählen Sie Ihr Gerät aus. Auf der nächsten Seite werden Sie aufgefordert, alle erforderlichen Geheimnisse hinzuzufügen. Sie können mehr als ein Gerät hinzufügen, dies muss jedoch einzeln erfolgen.",
+                "title": "Geräte"
+            },
+            "secrets_emon": {
+                "data": {
+                    "emoncms_url": "emoncms_url",
+                    "emoncms_api": "emoncms_api",
+                    "add_another": "Ein weiteres Gerät hinzufügen?"
+                },
+                "title": "Fügen Sie Ihr Geheimnis hinzu"
+            },
+            "secrets_victron": {
+                "data": {
+                    "victron_host": "victron_host",
+                    "add_another": "Add another device?"
+                },
+                "title": "Fügen Sie Ihr Geheimnis hinzu"
+            },
+            "secrets_sunnyboy_battery": {
+                "data": {
+                    "sbs_host": "sbs_host",
+                    "add_another": "Ein weiteres Gerät hinzufügen?"
+                },
+                "title": "Fügen Sie Ihr Geheimnis hinzu"
+            },
+            "secrets_sunnyboy_pv": {
+                "data": {
+                    "sb_host": "sb_host",
+                    "add_another": "Ein weiteres Gerät hinzufügen?"
+                },
+                "title": "Fügen Sie Ihr Geheimnis hinzu"
+            },
+            "sb_auto_required": {
+                "title": "Anmelden",
+                "description": "Kennen Sie Ihre Anmeldeinformationen?"
+            },
+            "shelly_selector_heater": {
+                "title": "Shelly-Selektor",
+                "description": "Wählen Sie eine Entität aus, die dem Shelly auf Ihrem Tauchsieder entspricht. Es sollte etwa wie 'sensor.shelly_em_abcd123_ip' aussehen."
+            },
+            "shelly_selector_meter": {
+                "title": "Shelly selector",
+                "description": "Wählen Sie eine Entität aus, die dem Shelly auf Ihrem Stromzähler entspricht. Es sollte etwa wie 'sensor.shelly_em_abcd123_ip' aussehen'"
+            }
+        }
+    }
+}
